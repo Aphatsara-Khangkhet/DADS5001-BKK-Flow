@@ -62,4 +62,4 @@ AI ช่วยเขียน pipeline, ตรวจ schema/quality/matching �
 
 [แผนตามเกณฑ์อาจารย์และสิ่งที่ศึกษาจากรุ่นพี่](docs/rubric_and_senior_review.md) แยกข้อกำหนดที่บันทึกไว้จากข้อเสนอการเล่าเรื่อง กราฟใหม่เพิ่ม coverage, distribution, paired AM/PM, location ranking, vehicle-share change และ 2026 matched-month snapshot โดยมีตารางชื่อสถานที่และขนาดตัวอย่างกำกับใน Notebook/Colab
 
-ศึกษางานรุ่นพี่เพื่อวางโครงเรื่อง: https://github.com/techasit239/Dads-5001-Accident-Is-You-Dont-Love ไม่ใช้โค้ด/ข้อมูลอุบัติเหตุของรุ่นพี่เป็นข้อมูลโครงงานเรา
+
