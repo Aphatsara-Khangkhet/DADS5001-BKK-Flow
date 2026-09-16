@@ -234,7 +234,7 @@ After รวมหลายปีจึงอาจซ่อนการเป�
 
 ## กราฟ 11 — Heatmap สถานที่ × ช่วงโควิด
 
-![Figure 11](outputs/additional_visuals/figures/11_location_period_heatmap.png)
+![Figure 11](outputs/figures/11_location_period_heatmap.png)
 
 **คำถาม:** แต่ละสถานที่มีรูปแบบการเปลี่ยนแปลงเหมือนกันหรือไม่?
 
@@ -248,7 +248,7 @@ After รวมหลายปีจึงอาจซ่อนการเป�
 
 ## กราฟ 12 — วันสำรวจจริงรายสถานที่
 
-![Figure 12](outputs/additional_visuals/figures/12_case_survey_dates.png)
+![Figure 12](outputs/figures/12_case_survey_dates.png)
 
 **คำถาม:** ผลที่เห็นเกิดจากหลายวันสอดคล้องกัน หรือไวต่อวันสำรวจบางวัน?
 
@@ -264,7 +264,7 @@ After รวมหลายปีจึงอาจซ่อนการเป�
 
 ## กราฟ 13 — Bubble ปริมาณฐาน × การเปลี่ยนแปลง
 
-![Figure 13](outputs/additional_visuals/figures/13_location_bubbles.png)
+![Figure 13](outputs/figures/13_location_bubbles.png)
 
 **คำถาม:** สถานที่ใดมีปริมาณฐานสูงและเปลี่ยนแปลงมาก เหมาะเลือกติดตามเพิ่มเติม?
 
@@ -278,7 +278,7 @@ After รวมหลายปีจึงอาจซ่อนการเป�
 
 ## กราฟ 14 — ผลต่างค่าเฉลี่ยแยกประเภทรถ
 
-![Figure 14](outputs/additional_visuals/figures/14_vehicle_contributions.png)
+![Figure 14](outputs/figures/14_vehicle_contributions.png)
 
 **คำถาม:** รถประเภทใดเป็นส่วนประกอบหลักของผลต่างเชิงตัวเลข?
 
@@ -292,7 +292,7 @@ After รวมหลายปีจึงอาจซ่อนการเป�
 
 ## กราฟ 15 — ดัชนีพร้อมช่วงความไม่แน่นอน
 
-![Figure 15](outputs/additional_visuals/figures/15_cluster_uncertainty.png)
+![Figure 15](outputs/figures/15_cluster_uncertainty.png)
 
 **คำถาม:** ค่ากลางในตัวอย่างมีความไม่แน่นอนเพียงใด?
 
@@ -306,7 +306,7 @@ After รวมหลายปีจึงอาจซ่อนการเป�
 
 ## กราฟ 16 — แผนที่การเปลี่ยนแปลงในกรุงเทพฯ
 
-![Figure 16](outputs/additional_visuals/figures/16_bangkok_matched_map.png)
+![Figure 16](outputs/figures/16_bangkok_matched_map.png)
 
 **คำถาม:** จุดที่ตรวจพิกัดได้กระจายอยู่บริเวณไหน และแสดงรูปแบบเพิ่ม–ลดอย่างไร?
 
