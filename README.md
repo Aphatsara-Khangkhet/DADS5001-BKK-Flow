@@ -1,6 +1,6 @@
 # Bangkok Traffic Mini Project
 
-สถานะ: ทำ Data Feasibility / Matching Audit และ EDA ฉบับร่าง พร้อมกราฟ 10 รูปและ Notebook ที่รันซ้ำได้แล้ว
+สถานะ: ทำ Data Feasibility / Matching Audit และ EDA ฉบับร่าง พร้อมกราฟ 16 รูปและ Notebook ที่รันซ้ำได้แล้ว
 
 แหล่งข้อมูลรอบนี้คือไฟล์ `bangkok_traffic_2560_Present (NotFinal) (1).xlsx` ชีต `traffic_data` ที่ผู้ใช้ให้มา ขอบเขตมีนาคม 2017–พฤษภาคม 2026 เป็นข้อมูลฉบับร่าง ไม่มีการดึงข้อมูลจราจรเพิ่มเติม
 
@@ -19,7 +19,7 @@
 
 - [Notebook EDA](notebooks/02_eda_and_visualization.ipynb)
 - [รายงานผลพร้อมกราฟ](outputs/eda/EDA_Findings.md)
-- [คำอธิบายกราฟทั้ง 10 พร้อมวิธีอ่านและข้อจำกัด](Read.md)
+- [คำอธิบายกราฟทั้ง 16 พร้อมวิธีอ่านและข้อจำกัด](Read.md)
 - รูป PNG อยู่ใน outputs/eda/figures จำนวน 10 รูป
 
 ## ใช้บน Google Colab
@@ -62,4 +62,22 @@ AI ช่วยเขียน pipeline, ตรวจ schema/quality/matching �
 
 [แผนตามเกณฑ์อาจารย์และสิ่งที่ศึกษาจากรุ่นพี่](docs/rubric_and_senior_review.md) แยกข้อกำหนดที่บันทึกไว้จากข้อเสนอการเล่าเรื่อง กราฟใหม่เพิ่ม coverage, distribution, paired AM/PM, location ranking, vehicle-share change และ 2026 matched-month snapshot โดยมีตารางชื่อสถานที่และขนาดตัวอย่างกำกับใน Notebook/Colab
 
+ศึกษางานรุ่นพี่เพื่อวางโครงเรื่อง: https://github.com/techasit239/Dads-5001-Accident-Is-You-Dont-Love ไม่ใช้โค้ด/ข้อมูลอุบัติเหตุของรุ่นพี่เป็นข้อมูลโครงงานเรา
 
+แหล่งข้อมูลต้นทาง: [สำนักการจราจรและขนส่ง กรุงเทพมหานคร — ปริมาณการจราจรบริเวณทางแยก](https://traffic.bangkok.go.th/re_intersection/intersection/intersection.html) รายละเอียดการอ้างอิงและข้อเสนอแนะจากผลวิเคราะห์อยู่ใน [Read.md](Read.md)
+
+## ผลตรวจบริบทและความทนทานเพิ่มเติม
+
+[รายงานบริบทสถานที่และวิธีสำรวจ](outputs/diagnostics/Location_Context_and_Methodology.md) และ [ผลตรวจทางสถิติ](outputs/diagnostics/Statistical_Diagnostics.md) พบความต่างต้นทางแถว 704 สองช่อง ยังไม่แก้ Excel; ตัวเลขยังเป็นฉบับร่าง รันซ้ำภาคผนวกด้วย `python src/traffic_diagnostics.py` หลัง EDA หรือใช้ Colab รุ่นล่าสุด
+
+## กราฟล่าสุด 11–16
+
+เพิ่ม heatmap สถานที่, วันสำรวจจริง, bubble ปริมาณฐานกับการเปลี่ยนแปลง, ผลต่างประเภทรถ, ช่วง bootstrap และแผนที่กรุงเทพฯ บางส่วน รวม 16 รูป
+
+- [คำอธิบายกราฟใหม่พร้อมรูปและ CSV](outputs/additional_visuals/Graph_Guide.md)
+- [พิกัดที่ผ่านการตรวจชื่อถนน](data/reference/map_coordinates_reviewed.csv)
+- [Matching audit ของพิกัด](data/reference/map_coordinate_matching_audit.csv)
+- [ที่มาและใบอนุญาตภูมิศาสตร์](data/reference/map_sources.json)
+- รูปเดิม 1–10: outputs/eda/figures; รูป 11–16: outputs/additional_visuals/figures
+
+Colab รวมพิกัดและขอบเขตที่ตรวจแล้ว ไม่ต้องติดตั้ง GIS หรือดึงพิกัดใหม่ แผนที่แสดง 21 จาก 175 ทางแยกของชุดหลักเท่านั้น ไม่ใช่ heatmap ต่อเนื่องหรือผลทั้งกรุงเทพฯ
