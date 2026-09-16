@@ -248,7 +248,7 @@ After รวมหลายปีจึงอาจซ่อนการเป�
 
 ## กราฟ 12 — วันสำรวจจริงรายสถานที่
 
-![Figure 12](outputs/eda/figures/eda/12_case_survey_dates.png)
+![Figure 12](outputs/eda/figures/12_case_survey_dates.png)
 
 **คำถาม:** ผลที่เห็นเกิดจากหลายวันสอดคล้องกัน หรือไวต่อวันสำรวจบางวัน?
 
