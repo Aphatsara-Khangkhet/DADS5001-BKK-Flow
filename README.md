@@ -67,6 +67,9 @@
 ### กราฟ 02 - แนวโน้มปริมาณรถทุกประเภทรวมกันเฉลี่ยรายปี (2560 - ปัจจุบัน)
 https://colab.research.google.com/gist/thanutcha6639-beep/4db2f845c4020b8eaa29ebbef5183607/untitled10.ipynb#scrollTo=fr9qNQzxaD2A&fullscreenOutput=true
 
+<img width="987" height="487" alt="image" src="https://github.com/user-attachments/assets/da142dd9-0f12-499e-aa69-3da198aee47d" />
+
+
 ### กราฟ 02 — ปริมาณรถในหน่วยที่จับคู่ครบสามช่วง
 
 ![กราฟ 02: ปริมาณรถในหน่วยที่จับคู่ครบสามช่วง](BKK6/fig/02.png)
