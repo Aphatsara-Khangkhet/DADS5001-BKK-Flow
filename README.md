@@ -134,7 +134,7 @@ https://colab.research.google.com/gist/thanutcha6639-beep/4db2f845c4020b8eaa29eb
 
 ทั้งสามกลุ่มมีดัชนีระหว่างและหลังโควิดต่ำกว่าฐานก่อนโควิด ในช่วงหลังโควิด กลุ่มเช้าและเย็นมีดัชนีเพิ่มขึ้นเล็กน้อยจากระหว่างโควิด ขณะที่กลุ่มกลางวันลดลงเพิ่มเติม
 
-อย่างไรก็ตาม แต่ละกลุ่มมีชุดสถานที่สำรวจต่างกัน จึงยังสรุปไม่ได้ว่าความแตกต่างเกิดจากช่วงเวลาเพียงอย่างเดียว หรือผู้เดินทางเปลี่ยนเวลาเดินทา
+อย่างไรก็ตาม แต่ละกลุ่มมีชุดสถานที่สำรวจต่างกัน จึงยังสรุปไม่ได้ว่าความแตกต่างเกิดจากช่วงเวลาเพียงอย่างเดียว หรือผู้เดินทางเปลี่ยนเวลาเดินทาง
 
 ### กราฟ 8 - การเปรียบเทียบการเปลี่ยนแปลงของปริมาณการจราจร ณ จุดสำรวจเดิม จำแนกตามช่วงเวลาของวัน
 
@@ -322,8 +322,8 @@ Action Plan: เน้นการบริหารจัดการจุด�
 
 - [รายงานผลสำรวจทางแยก สจส. กทม.](https://traffic.bangkok.go.th/re_intersection/intersection/intersection.html): แหล่งข้อมูลต้นทาง
 - [คู่มือ สจส.](https://traffic.bangkok.go.th/TechnicalManuals/TTD.pdf#page=139): บริบทการสำรวจและหมวดรถ
-- [บัญชีข้อมูลภาครัฐ](https://data.go.th/en/dataset/traffic_volume): หน่วยงานและสถานะ license ที่ตรวจพบ ไม่ได้ใช้อนุมานสิทธิจากแค่การเข้าถึงได้
+- [บัญชีข้อมูลภาครัฐ](https://data.go.th/en/dataset/traffic_volume): หน่วยงานและสถานะ license ที่ตรวจพบ
 - [ไทยโพสต์](https://www.thaipost.net/main/detail/60470): ช่วงปิดสถานที่ปี 2020
 - [BBC](https://www.bbc.com/thai/thailand-57773493): บริบทวันเริ่มมาตรการกรกฎาคม 2021
-- [FHWA Traffic Monitoring Guide](https://www.fhwa.dot.gov/policyinformation/tmguide/tmg_2022/traffic-data-methodologies.cfm): หลักพิจารณาความต่างของช่วงเวลาและฤดูกาล ไม่ใช่หลักฐานว่า สจส. ใช้วิธีเดียวกันทุกข้อ
+- [FHWA Traffic Monitoring Guide](https://www.fhwa.dot.gov/policyinformation/tmguide/tmg_2022/traffic-data-methodologies.cfm): หลักพิจารณาความต่างของช่วงเวลาและฤดูกาล 
 
